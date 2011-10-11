@@ -1,0 +1,9 @@
+[fr]
+trocpanier est un outil d'echange de paniers AMAP en ligne:
+Lorsqu'un adherent ne peut pas venir chercher son panier, il le
+met a disposition sur ce site.
+Toutes les personnes en liste d'attente recoivent un mail qui les
+previent qu'un panier est disponible et peuvent aller sur le site
+pour le reserver.
+
+Trocpanier est ecrit en django
