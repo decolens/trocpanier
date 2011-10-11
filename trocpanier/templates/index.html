@@ -1,0 +1,17 @@
+{% extends "admin/base.html" %}
+{% block title %} Troc Panier {% endblock %}
+
+{% block content %}
+<h1> Troc Panier </h1>
+<ul>
+  <li> <a href="{% url deposer %}"> Deposer un panier </a>
+  <li> <a href="{% url reserver %}"> Reserver un panier </a>
+</ul>
+<h2>liste des echanges: </h2>
+<table>
+  <tr><td>Date</td><td>Nom de l'adherent</td><td>Type de panier</td></tr>
+{% for panier in paniers %}
+  <tr><td>{{panier.distribution.date}}</td><td>{{panier.adherent}}</td><td>{{panier.adherent.profil.panier}}</td></tr>
+{% endfor %}
+</table>
+{% endblock %}
