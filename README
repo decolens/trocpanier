@@ -7,3 +7,14 @@ previent qu'un panier est disponible et peuvent aller sur le site
 pour le reserver.
 
 Trocpanier est ecrit en django
+
+Notes d'installation:
+une fois clone, l'arborescence est:
+trocpanier
+\trocpanier
+
+renommer le premier repertoire en autre chose par exemple:
+troc
+\trocpanier
+
+python et/ou django se perd dans les repertoires sinon.
